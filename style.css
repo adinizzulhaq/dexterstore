@@ -1,0 +1,253 @@
+:root {
+  --primary: #e3caa5;
+  --secondary: #ceab93;
+  --tertiary: #ad8b73;
+  --font: #fffbe9;
+}
+
+body {
+  background-color: var(--secondary);
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+/* Navbar Start */
+.navbar {
+  background-color: var(--primary);
+  border-bottom: 1px solid var(--font);
+}
+
+.navbar .navbar-brand,
+.navbar .offcanvas-header {
+  font-weight: 800;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: var(--font);
+}
+
+.navbar .nav-link {
+  color: var(--font);
+}
+
+.navbar .offcanvas {
+  width: 60%;
+}
+
+.navbar .navbar-brand span,
+.navbar .offcanvas-header span {
+  color: var(--tertiary);
+}
+
+.navbar .offcanvas-body,
+.navbar .offcanvas-header {
+  background-color: var(--primary);
+}
+
+/* Carousel Section */
+.container-carousel {
+  margin-top: 6rem;
+}
+
+.container-carousel img {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Searchbar Section */
+.container-searchbar .searchbar-btn {
+  background-color: var(--primary);
+  color: var(--font);
+}
+
+.container-searchbar .searchbar-btn:hover {
+  color: var(--primary);
+  background-color: var(--font);
+}
+
+/* Produk Section */
+.container-game a,
+.container-stream a,
+.container-voucher a {
+  text-decoration: none;
+}
+
+.container-game h1,
+.container-stream h1,
+.container-voucher h1 {
+  font-weight: 800;
+}
+
+.container-game .title-produk,
+.container-game h1,
+.container-stream .title-produk,
+.container-stream h1,
+.container-voucher .title-produk,
+.container-voucher h1 {
+  color: var(--font);
+}
+
+/* Modal Section */
+.container-modal .modal-content {
+  background-color: var(--primary);
+  border: 2px solid var(--font);
+}
+
+.container-modal .modal-content h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--font);
+}
+
+.container-modal .modal-content p {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--font);
+}
+
+.modal-footer {
+  margin-top: -15px;
+}
+
+.container-modal .btn-order {
+  background-color: var(--font);
+  color: var(--primary);
+}
+
+.container-modal i {
+  font-size: 1.2rem;
+}
+
+.container-modal .btn-order:hover {
+  background-color: var(--secondary);
+  color: var(--font);
+}
+
+/* Tentang Section */
+.container-tentang {
+  margin-top: 50px;
+}
+
+.container-tentang .content {
+  background-color: var(--primary);
+  color: var(--font);
+  border: 1px solid var(--font);
+}
+
+.container-tentang h1 {
+  font-weight: 800;
+}
+
+.container-tentang p {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.container-tentang span {
+  color: var(--tertiary);
+}
+
+/* Footer Section */
+footer {
+  margin-top: 50px;
+  background-color: var(--primary);
+  color: var(--font);
+  border-top: 1px solid var(--font);
+}
+
+.container-footer a {
+  text-decoration: none;
+  color: var(--font);
+}
+
+.container-footer h1 {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.container-footer span {
+  color: var(--tertiary);
+}
+
+.container-footer .title-footer {
+  font-weight: 600;
+}
+
+.container-footer img {
+  margin: 5px 3px auto auto;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Media Query */
+/* Laptop */
+@media (max-width: 992px) {
+  .container-carousel img {
+    height: 250px;
+  }
+
+  .container-game img,
+  .container-stream img,
+  .container-voucher img {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .container-carousel img {
+    height: 200px;
+  }
+
+  .container-game img,
+  .container-stream img,
+  .container-voucher img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .container-modal .modal-content {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+/* Handphone */
+@media (max-width: 576px) {
+  html {
+    font-size: 75%;
+  }
+
+  .container-carousel img {
+    height: 150px;
+  }
+
+  .container-game img,
+  .container-stream img,
+  .container-voucher img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .container-modal .modal-content {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 75%;
+  }
+
+  .container-carousel img {
+    height: 100px;
+  }
+
+  .container-game img,
+  .container-stream img,
+  .container-voucher img {
+    width: 85px;
+    height: 85px;
+  }
+}
