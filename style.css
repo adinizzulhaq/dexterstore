@@ -173,9 +173,9 @@ footer {
 }
 
 .container-footer img {
-  margin: 5px 3px auto auto;
-  width: 1.5rem;
-  height: 1.5rem;
+  margin: 5px 20px auto auto;
+  width: 8rem;
+  height: 2rem;
 }
 
 /* Media Query */
@@ -232,6 +232,10 @@ footer {
   .container-modal .modal-content {
     width: 85%;
     margin: auto;
+  }
+
+  marquee {
+    display: none;
   }
 }
 
