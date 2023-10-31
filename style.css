@@ -18,9 +18,9 @@ body {
 }
 
 .navbar .navbar-brand,
-.navbar .offcanvas-header {
+.navbar .offcanvas-header .offcanvas-title {
   font-weight: 800;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-style: italic;
   color: var(--font);
 }
@@ -215,7 +215,7 @@ footer {
 /* Handphone */
 @media (max-width: 576px) {
   html {
-    font-size: 75%;
+    font-size: 80%;
   }
 
   .container-carousel img {
