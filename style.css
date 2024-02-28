@@ -214,8 +214,9 @@ footer {
 
 /* Handphone */
 @media (max-width: 576px) {
-  html {
-    font-size: 80%;
+  .navbar .navbar-brand,
+  .navbar .offcanvas-header .offcanvas-title {
+    font-size: 1.5rem;
   }
 
   .container-carousel img {
@@ -240,8 +241,9 @@ footer {
 }
 
 @media (max-width: 350px) {
-  html {
-    font-size: 75%;
+  .navbar .navbar-brand,
+  .navbar .offcanvas-header .offcanvas-title {
+    font-size: 1.2rem;
   }
 
   .container-carousel img {
